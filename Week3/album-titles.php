@@ -22,6 +22,7 @@
     $cmd->execute();
     $albums = $cmd->fetchAll();
 
+
     //loop through the data
     foreach($albums as $album) {
         echo $album['title'].'<br />';
